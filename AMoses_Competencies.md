@@ -2,7 +2,7 @@
 
 ### 1. FRONT END DEVELOPMENT HTML & CSS
 
-*Demonstrated proficiency here:https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/astrid/page-templates/HomePageTemplate.php
+*Demonstrated proficiency here: https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/astrid/page-templates/HomePageTemplate.php*
 
 - [x] Solid Knowledge of common tag types and how to implement them
 
@@ -20,15 +20,17 @@
 - [x] Understands how the browser handles conflicting styles
 
 
-- [x] Understands how the DOM is laid out and is structured - *The DOM is an API that allows programmers to manipulate elements on a webpage in a CRUD-like. The DOM treats elements as objects and interfaces that exist in a tree-like hierarchy* 
+- [x] Understands how the DOM is laid out and is structured -  
 
 
 - [x] Understands the difference between content & styling
 
 
-- [x] Understands that different browsers render and interpret things slightly differently and the need to test on commonly used platforms - *performed cross-platform testing and corrected peoplegrid rendering issues on different browsers for HVA*
+- [x] Understands that different browsers render and interpret things slightly differently and the need to test on commonly used platforms - 
 
 ##### Bootstrap
+
+*Demonstrated proficiency here: https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/astrid/page-templates/HomePageTemplate.php*
 
 - [x] Knowledge of Bootstrap properties and design principles
 
@@ -45,7 +47,8 @@
 
 - [x] ##### JavaScript 
 
-      *Demonstrated proficiency here: https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/astrid/page-templates/ManageStaff.php (Start at line 158) 
+      *Demonstrated proficiency here: https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/astrid/page-templates/ManageStaff.php (Start at line 158)*
+      *https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branch_Sprint71/CMS/App_Themes/Homevestors/Libs/js/Angular/ng-controller-blog-tag.js* 
       ADD HVA EXAMPLES
 
 
@@ -62,47 +65,16 @@
 
 
 - [x] Knowledge of JSON and working with JSON objects
-
+*objects can be serialized into a string for easy storage, passage, and readability. Can then be deserialized back into their original state once they have been passed where they need to go*
 
 - [x] Knowledge on how to traverse the DOM for element handles
 
 
-- [x] Know how to structure native JavaScript classes (OOP, Pub/Sub) using prototype or object literal statements - *See 4 ways of creating objects in JS:*
-
-      Function constructor:
-
-      ```
-      var Obj = function(name) {
-        this.name = name
-      }
-      var c = new Obj("hello"); 
-      ```
-
-      Function constructor + prototype:
-
-      ```
-      function myObj(){};
-      myObj.prototype.name = "hello";
-      var k = new myObj();
-      ```
-
-      Object literal:
-
-      ```
-      var contactDetails = {name: "Erin", phone number: "602-284-1864", email: "econnolly@techtonicgroup.com"}
-      ```
-
-      Object.create method:
-
-      ```
-      var a = Object.create(null);
-      ```
-
-      ​
+- [x] Know how to structure native JavaScript classes (OOP, Pub/Sub) using prototype or object literal statements 
+      *Demonstrated proficiency here: https://github.com/austinmoses/Library_Austin/blob/master/library.js*
 
 ##### AJAX
 
-NO
 
 - [x] Understanding of asynchronous concepts and implications such as callbacks 
 
@@ -117,8 +89,9 @@ NO
 
 ##### HTTP Methods
 
-*Demonstrated proficiency here: 
-https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/astrid/page-templates/ManageStaff.php (Lines 119-156)
+*Demonstrated proficiency here:* 
+*https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/astrid/page-templates/ManageStaff.php (Lines 119-156)*
+*https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branch_Sprint71/CMS/App_Themes/Homevestors/Libs/js/Angular/Factories/blogtagfactory.js*
 
 
 - [x] Understands difference between HTTP Methods POST, GET, and PUT
@@ -127,6 +100,9 @@ https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/as
 - [x] Understands difference between AJAX and HTTP Methods - **AJAX, or Asynchronous JavaScript and XML, is a jQuery wrapper that implements the  DOM's built in XMLHttpRequest Object, which enables asynchronous interaction with the server (ie the page can be updated or data sent to the server without reloading).  HTTP methods indicate the action to be performed on the data in the server, whether it be get, put, post, delete, patch, etc.* * 
 
 ##### jQuery
+*javascript library that makes it easy to select and manipulate elements off of the page using css selectors such as class, id, or tag*
+*Demonstrated Proficiency here: https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/astrid/page-templates/HomePageTemplate.php*
+
 
 - [x] Understands where to inject script files and how to make it function
 
@@ -138,7 +114,7 @@ https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/as
 
 ### 3. DATABASE DEVELOPMENT
 
-
+*Demonstrated proficiency here: https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branch_Sprint71/KenticoDB/dbo/Tables/BlogTag.sql*
 
 - [x] Understands the difference between a relational database and document based database
 
@@ -150,9 +126,15 @@ https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/as
 - Able to interact with MongoDB documents, & database collections using either RoboMongo or MongoVUE
 
 **SQL**
+*Demonstrated proficiency here:*
+*https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branch_Sprint71/KenticoDB/dbo/Tables/BlogTag.sql*
+*https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branch_Sprint71/KenticoDB/dbo/Stored%20Procedures/Proc_Custom_BlogRepository_CreateBlogTag.sql*
+*https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branch_Sprint71/KenticoDB/dbo/Stored%20Procedures/Proc_Custom_BlogRepository_DeleteBlogTags.sql*
+*https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branch_Sprint71/KenticoDB/dbo/Stored%20Procedures/Proc_Custom_BlogRepository_GetAllBlogTags.sql*
+*https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branch_Sprint71/KenticoDB/dbo/Stored%20Procedures/Proc_Custom_BlogRepository_UpdateBlogTags.sql*
 
 - [x] Can create tables, columns & stored procedures in a timely manner
-      - *Demonstrated proficiency creating tables, adding columns here: Demonstrated proficiency here:  https://www.codecademy.com/cloudSurfer22422*
+      - 
 - [x] Can take business logic and turn it into a database design
 
 
@@ -161,12 +143,12 @@ https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/as
 
 - [x] Can create reliable, tested queries that efficiently return data
 
-
 - [x] Comfortable with CLI and/or GUI tools
 
 
 - [x] Can write repository methods that perform basic CRUD operations
-      - *Demonstrated in MVCMovie project: https://github.com/econno11ee/MvcMovieApp*
+      -*https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branch_Sprint71/DataAccess/Blogs/BlogRepository.cs (lines 190-355)*
+
 
 ### 4. BACKEND DEVELOPMENT
 
@@ -203,13 +185,13 @@ https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branc
 - Knowledge of unit testing and Spec to produce clean, tested code
 
 ##### PHP
-
+*Deomonstrated proficiency here: https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/plugins/Techtonic-WPPlugin/controllers/homeController.php*
 - Solid understanding how to use forms
 - Understaning of how to assign variables into HTML elements
 - Before writing a function or class, be able to utilize existing functions or classes
 
 ##### APIs
-
+*Demonstrated Proficiency: worked with HVA which is one big restful API*
 - [x] Create modern, REST API's from existing information assets 
 
 
@@ -321,12 +303,10 @@ https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branc
 
 
 - [x] Interface segregation: Do not create lengthy interfaces, instead split them into smaller interfaces based on the functionality. The interface should not contain any dependencies (paramaters), which are not require for the expected functionality
-      - Demonstrated in MVCMovie project: https://github.com/econno11ee/MvcMovieApp
-
+    
 
 - [x] Dependency Injection: Do not hardcode the dependencies, instead inject them
-      - *Exposure to these concepts in MVVM at Techtonic Group client*
-
+     
 ### 6. GIT
 
 - [x] Solid knowledge of how source control works why it's important using either CLI or GUI tools
