@@ -119,7 +119,7 @@
 - [x] Understands the difference between a relational database and document based database
 
 ##### MongoDB
-
+*Relational database uses tables with columns as properties, document based database uses a document and does not have set properties of an object like columns in a relational database. Worked with Nick on Mongo for final apprenticeship project*
 - Knowledge of basic installation of MongoDB and C Driver, JSON, schema design, querying, insertion of data, indexing & working with C# driver
 - Able to build a MongoDB-based app
 - Can Write repository methods that perform basic CRUD operations
