@@ -44,13 +44,13 @@
 ​
 
 ### 2. MIDDLEWARE DEVELOPMENT
-
-- [x] ##### JavaScript 
-
-      *Demonstrated proficiency here: https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/astrid/page-templates/ManageStaff.php (Start at line 158)*
+*Demonstrated proficiency here: https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/astrid/page-templates/ManageStaff.php (Start at line 158)*
       *https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branch_Sprint71/CMS/App_Themes/Homevestors/Libs/js/Angular/ng-controller-blog-tag.js* 
  
 
+- [x] JavaScript 
+
+      
 
 - [x] Solid understanding of HTML & CSS
 
@@ -226,7 +226,7 @@ https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branc
 - [x] Design patterns: Use appropriate design pattern (if if helps), after completely understanding the problem and context
 
 ##### Coding Best Practices
-STORED PROCEDURE ENUM 
+*Demonstrated proficiency here: https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branch_Sprint71/BusinessEntities/Enums/StoredProcedures.cs*
 - [x] No hard coding, use constants/configuration values
 
 
