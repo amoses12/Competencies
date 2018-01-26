@@ -49,7 +49,7 @@
 
       *Demonstrated proficiency here: https://github.com/TechtonicGroup/TG-Wordpress/blob/develop/wp-content/themes/astrid/page-templates/ManageStaff.php (Start at line 158)*
       *https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branch_Sprint71/CMS/App_Themes/Homevestors/Libs/js/Angular/ng-controller-blog-tag.js* 
-      ADD HVA EXAMPLES
+ 
 
 
 - [x] Solid understanding of HTML & CSS
@@ -65,7 +65,7 @@
 
 
 - [x] Knowledge of JSON and working with JSON objects
-*objects can be serialized into a string for easy storage, passage, and readability. Can then be deserialized back into their original state once they have been passed where they need to go*
+
 
 - [x] Knowledge on how to traverse the DOM for element handles
 
@@ -97,7 +97,7 @@
 - [x] Understands difference between HTTP Methods POST, GET, and PUT
 
 
-- [x] Understands difference between AJAX and HTTP Methods - **AJAX, or Asynchronous JavaScript and XML, is a jQuery wrapper that implements the  DOM's built in XMLHttpRequest Object, which enables asynchronous interaction with the server (ie the page can be updated or data sent to the server without reloading).  HTTP methods indicate the action to be performed on the data in the server, whether it be get, put, post, delete, patch, etc.* * 
+- [x] Understands difference between AJAX and HTTP Methods 
 
 ##### jQuery
 *javascript library that makes it easy to select and manipulate elements off of the page using css selectors such as class, id, or tag*
@@ -191,14 +191,14 @@ https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branc
 - Before writing a function or class, be able to utilize existing functions or classes
 
 ##### APIs
-*Demonstrated Proficiency: worked with HVA which is one big restful API*
+*Demonstrated Proficiency: worked with HVA which is one big restful API https://github.com/TechtonicGroup/HomeVestors_Kentico/tree/devbranches/Dev_Branch_Sprint71* 
 - [x] Create modern, REST API's from existing information assets 
 
 
-- [ ] Integrates and orchestrates enterprise services across silos
+- [x] Integrates and orchestrates enterprise services across silos
 
 
-- [ ] Secure and authorize information assets exposed via APIs
+- [x] Secure and authorize information assets exposed via APIs
 
 
 - [x] Understanding C.R.U.D
@@ -226,7 +226,7 @@ https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branc
 - [x] Design patterns: Use appropriate design pattern (if if helps), after completely understanding the problem and context
 
 ##### Coding Best Practices
-
+STORED PROCEDURE ENUM 
 - [x] No hard coding, use constants/configuration values
 
 
@@ -263,19 +263,19 @@ https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branc
       ​	Consider generic functions and classes
 
 
-- [ ] c.) Reliability - Exception handling and cleanup (dispose) resources.
+- [x] c.) Reliability - Exception handling and cleanup (dispose) resources.
 
 
 
-- [ ] d.) Extensibility - Easy to add enhancements with minimal changes to existing code. One component should be easily replaceable by a better component.
+- [x] d.) Extensibility - Easy to add enhancements with minimal changes to existing code. One component should be easily replaceable by a better component.
 
 
 
-- [ ] e.) Security - Authentication, authorization, input data validation against security threats such as SQL injections and Cross Site Scripting (XSS), encrypting the sensitive data (passwords, credit card information etc.)
+- [x] e.) Security - Authentication, authorization, input data validation against security threats such as SQL injections and Cross Site Scripting (XSS), encrypting the sensitive data (passwords, credit card information etc.)
 
 
 
-- [ ] f.) Performance 
+- [x] f.) Performance 
 
       Use a data type that best suits the needs such as StringBuilder, generic collection classes
 
@@ -283,29 +283,28 @@ https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branc
 
       Caching and session/application data
 
-- [ ] g.) Scalability - Consider if it supports a large user base/data? Can this be deployed into web farms?
+- [x] g.) Scalability - Consider if it supports a large user base/data? Can this be deployed into web farms?
 
 
 
-- [ ] h.) Usability - Put yourself in the shoes of a end-user and ascertain, if the user interface/API is easy to understand and use. If you are not convinced with the user interface design, then start discussing your ideas with the business analyst
+- [x] h.) Usability - Put yourself in the shoes of a end-user and ascertain, if the user interface/API is easy to understand and use. If you are not convinced with the user interface design, then start discussing your ideas with the business analyst
 
 
 ##### Object-Oriented Analysis and Design (OOAD) Principles
 
-- [x] Single Responsibility Principle (SRS): Do not place more than one responsibility into a single class of function, refactor into separate classes and functions
+- [x] Single Responsibility Principle (SRS): Each class should only have one responsibility. Split multiple responsiblities into mutliple classes.
 
 
-- [x] Open Closed Principle: While adding new functionality, existing code should not be modified. New functionality should be written in new classes and functions
+- [x] Open Closed Principle: New functionality should be added with minimal changes to existing code. Write original code so functionality can be added easily in the future. 
 
 
-- [x] Liskov substitutability principle: The child class should not change the behavior (meaning) of the parent class. The child classcan be used as a substitute for a base class.
-      - Completed Interface Polygons class
+- [x] Liskov substitutability principle:  Any modification to a class should be written as a new class derived off of the old (base) class. That new class should not affect the behavior of the base (parent) class.
 
 
-- [x] Interface segregation: Do not create lengthy interfaces, instead split them into smaller interfaces based on the functionality. The interface should not contain any dependencies (paramaters), which are not require for the expected functionality
+- [x] Interface segregation: Segregate interfaces into smaller interfaces. This allows the client to use only the interfaces it needs as opposed to forcing it to depend on parts of a lengthy interface it doesn't need.
     
 
-- [x] Dependency Injection: Do not hardcode the dependencies, instead inject them
+- [x] Dependency Injection: Do not hardcode the dependencies, instead inject them. ex, use functionality pieces such as plugins as opposed to hard coding that functionality into a solution.
      
 ### 6. GIT
 
@@ -333,4 +332,5 @@ https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branc
 - [x] Uses relevant and important information in commit notes
 
 
-- [ ] Understands differences between HTTPS SSH validation
+- [x] Understands differences between HTTPS SSH validation 
+      *Set up SSH Key for GitHub Account*
