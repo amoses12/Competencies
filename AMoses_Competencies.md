@@ -206,7 +206,7 @@ https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branc
 ### 5. CODING STANDARDS
 
 ##### Code Formatting
-
+*Demonstrated Proficiency: https://github.com/TechtonicGroup/HomeVestors_Kentico/tree/devbranches/Dev_Branch_Sprint71* 
 - [x] While going through code, check the code formatting to improve readability and ensure there are no blockers
 
 ##### Architecture
@@ -291,22 +291,24 @@ https://github.com/TechtonicGroup/HomeVestors_Kentico/blob/devbranches/Dev_Branc
 
 
 ##### Object-Oriented Analysis and Design (OOAD) Principles
+*Learned through: https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design*
 
 - [x] Single Responsibility Principle (SRS): Each class should only have one responsibility. Split multiple responsiblities into mutliple classes.
 
 
-- [x] Open Closed Principle: New functionality should be added with minimal changes to existing code. Write original code so functionality can be added easily in the future. 
+- [x] Open Closed Principle: Code should be written in a way that is open to extension, but closed to modification.
 
 
-- [x] Liskov substitutability principle:  Any modification to a class should be written as a new class derived off of the old (base) class. That new class should not affect the behavior of the base (parent) class.
+- [x] Liskov substitutability principle:  Any modification to a class should be written as a new class derived off of the old (base) class. That new class should not affect the behavior of the base (parent) class and should be substitutable for the base class.
 
 
 - [x] Interface segregation: Segregate interfaces into smaller interfaces. This allows the client to use only the interfaces it needs as opposed to forcing it to depend on parts of a lengthy interface it doesn't need.
     
 
-- [x] Dependency Injection: Do not hardcode the dependencies, instead inject them. ex, use functionality pieces such as plugins as opposed to hard coding that functionality into a solution.
+- [x] Dependency Injection: Do not hardcode the dependencies, instead inject an interface so our classes won't break if we change a dependency.
      
 ### 6. GIT
+*Demonstrated proficiency here: https://github.com/amoses12*
 
 - [x] Solid knowledge of how source control works why it's important using either CLI or GUI tools
 
